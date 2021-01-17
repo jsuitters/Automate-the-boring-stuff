@@ -1,7 +1,6 @@
 import random
 print("I am thinking of a number between 1 and 20...")
 number = random.randint(1, 20)
-print(number)
 
 for n in range(1, 7):
     numberGuess = int(input("Take a guess!"))
