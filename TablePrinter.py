@@ -11,7 +11,7 @@ def print_table(table):
         for y in range(len(table[0])):
             if n < len(table[x][y]):
                 n = len(table[x][y])
-                z = y #temporary variable for remembering y outisde the loop
+                z = y  # temporary variable for remembering y outisde the loop
         widest.append(table[x][z])
 
     for y in range(len(table[0])):
