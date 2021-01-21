@@ -12,13 +12,17 @@ while True:
         break
     except ValueError:
         print("Not an integer")
-print(number)
+print(f"Your number is: {number}")
 
+j = 0
 while True:
     if number != 1:
         number = (collatz(number))
         print(number)
+        j += 1
     else:
         break
+
+print(f"Number of times around the loop: {j}")
 
 
